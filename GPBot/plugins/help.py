@@ -9,13 +9,16 @@ btn =[
     [Button.inline("Chat Cleaner", data="zombies")]]
 
 HELP_TEXT = """
-**Heya {} help menu here:**
-
-/start - To Start Me ;)
-/help - To Get Available Help Menu
-
-__Report Bugs At--->__ **@TgxSupportChat**
-All cmd can be used with ! or ? or /.
+Hey there! My name is *{}*.
+I am an Advanced AI Powered Group Manager Bot.🔥🔥
+For Help, Queries and Report Bugs Contact @CyberBoyAyushBot 🎅
+*Commands Available*:
+ - /start: Star The Bot
+ - /help: Help Commands!!
+ - /help <module name>: Send's You Info Of Particular Module.
+ - /settings:
+   - in PM: will send you your settings for all supported modules.
+   - in a group: will redirect you to pm, with all that chat's settings.
 """.format(Config.BOT_US)
 
 
