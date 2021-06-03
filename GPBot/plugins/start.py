@@ -16,7 +16,7 @@ async def start(event):
     if event.is_private:
        await event.reply(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.inline("Help And Commands", data="help")],
-        [Button.url("Updates Channel✔️", "https://telegram.me/ayushbots")]])
+        [Button.url("Updates Channel✔️", "https://telegram.me/ayushbots")]),
         [Button.url("Support🔥", "https://telegram.me/CyberBoyAyushBot")]])
        return
 
